@@ -2,45 +2,45 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kota Bandung</title>
     <!-- <style>
     </style> -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="topheader">
+    <header>
      <!-- <div id="headerInTitle"> -->
+        <div class="jumbotron">
          <h1>
              Bandung
          </h1>
-        <!-- </div> -->
-        <!-- <p id="headerParagraph"> -->
-        <p>
-            Kota Dari Jawa Barat yang merupakan ibukota provinsi
-
-        </p>
-        <!-- </p> -->
-
+         <!-- <p id="headerParagraph"> -->
+             <p>
+                 Kota Dari Jawa Barat yang merupakan ibukota provinsi
+                </p>
+            </div>
+        <nav>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Sejarah
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Geografis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Wisata
+                                    </a>
+                                </li>
+                            </ul>
+        </nav>
     </header>
-    <nav>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    Sejarah
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Geografis
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Wisata
-                                </a>
-                            </li>
-                        </ul>
-    </nav>
+    <main id="content">
+    <article id="sejarah" class="card">
     <section>
         <h2>Sejarah</h2>
         <img src="asset/image/uji-kanggo-gumilang-xRixrjLL2W0-unsplash.jpg" class="featured-image" alt="sejarah">
@@ -72,17 +72,33 @@
         tes
         </aside> -->
     </section>
+    </article>
+    <article id="geografis" class="card">
     <section>
         <h2>Geografis</h2>
         <img src="asset/image/fendy-pradana-5kkPMRQhQtg-unsplash.jpg" class="featured-image" alt="sejarah">
+        <p>
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+            'Content here, content here', making it look like readable English. Many desktop publishing packages and web page
+            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites
+            still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+            (injected humour and the like).
+        </p>
     </section>
     <br>
+</article>
+<footer>Belajar Dasar Pemrograman Web</footer>
+</main>
     <aside>
         <article class="profile">
             <header>
-                Kota Bandung
-                <p>Paris Van Java</p>
+                <b>
+                    Kota Bandung
+                </b>
             </header>
+            <p>Paris Van Java</p>
             <img src="asset/image/clipart1063472.png" alt="" srcset=""><br>
             <b>
                 Lambang
@@ -116,13 +132,12 @@
                                 Bahasa Daerah
                             </b>
                             Sunda <br>
-                                <b>
-                                    Kode Telpon
-                                </b>
-                                +62 22 <br>
-            </p>
-        </article>
-    </aside>
-    <footer>Belajar Dasar Pemrograman Web</footer>
+                            <b>
+                                Kode Telpon
+                            </b>
+                            +62 22 <br>
+                        </p>
+                    </article>
+                </aside>
 </body>
 </html>
