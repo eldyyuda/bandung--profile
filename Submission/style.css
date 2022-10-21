@@ -1,0 +1,403 @@
+
+@import url('https: //fonts.googleapis.com/css?family=Bakbak One');
+body {
+    font-family: 'Bakbak One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7FB7BE;
+    /* transform: translate(-50%, -50%); */
+  }
+  * {
+    box-sizing: border-box;
+  }
+section h2{
+    color: #D3F3EE;
+    margin: 1em 0em 1em;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #DACC3E;
+    color: #D3F3EE;
+ }
+ .jumbotron {
+    padding: 60px;
+    background-color: #BC2C1A;
+    text-align: center;
+    font-size: 20px;
+    color: #D3F3EE;
+  }
+  #navbar li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+  nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #D3F3EE;
+  }
+/* section p{
+    margin: 1em;
+} */
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.topheader header h1{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+#navbar ul{
+    margin-left: 3em;
+}
+  aside {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      float: right;
+      width: 28%;
+      /* margin-top: 10em; */
+      /* border-radius: 1px; */
+      padding-left: 20px;
+      margin-top: 8em;
+      padding: 0.5em;
+      margin-right: 1em;
+      background-color: #DACC3E;
+      border-radius: 5px;
+  }
+#content {
+    float: left;
+    width: 70%;
+  }
+  @media screen and (max-width: 1000px) {
+    #content{
+      width: 100%;
+      padding: 0;
+    }
+    aside{
+        width: 90%;
+         padding: 0;
+         /* margin: 1em; */
+        margin-left: 1em;
+    }
+  }
+
+
+  #navbar {
+      /* background-color: #333; */
+      background-color: #D83F2B !important;
+  }
+  #navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+  }
+  /* #navbar>ul>li {
+      float: left;
+  } */
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+}
+header {
+    display: inline;
+ }
+nav a:hover {
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+  }
+.profile {
+    text-align: center;
+  
+}
+.profile header {
+    text-align: center;
+    color:#D3F3EE;
+    margin: 1em;
+    font-size:2em;
+}
+.profile p{
+    font-style: italic;
+}
+.profile img{
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: -7em;
+    margin-left: 5em;
+    border-style: solid;
+    background-color: #F8F4F9;
+}
+table{
+   margin: auto;
+}
+table,th,td{
+    border: 1px solid;
+    padding: 0.5em;
+}
+.info-header{
+    color: #D3F3EE;
+    margin-bottom: 10em; 
+
+}
+.info{
+    padding: 0.5em;
+    text-align: center;
+}
+.info p {
+    margin: 0.5em;
+}
+
+footer {
+    padding: 20px;
+    color: #D3F3EE;
+    background-color: #BC2C1A;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0.2em;
+}
+                /* Rule styling akan diterapkan pada karakter pertama disebuah paragraf
+                p::first-letter {
+                    font-size: 32px;
+                    font-weight: bold;
+                    color: saddlebrown;
+                }
+        
+                blockquote::before,
+                blockquote::after {
+                    content: '"';
+                    font-size: 24px;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+        
+                /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+                /* a:link {
+                    color: red;
+                } */
+        
+                /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+                /* a:visited {
+                    color: green;
+                } */
+        
+                /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+                /* a:hover {
+                    color: pink;
+                } */ 
+/* header{
+    background-color: deepskyblue;
+    height: 10em;
+
+}
+#headerInTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    font-size:xx-large;
+    text-align: center;
+    padding: 25px;
+}
+#headerParagraph{
+    font-size: medium;
+    color: whitesmoke;
+    margin-bottom: 5em;
+    text-align: center;
+}
+#navbar{
+    background-color: cadetblue;
+    position: -webkit-sticky;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+    margin: 0 auto;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+#navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.content-wrapper {
+    padding: 2em;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    margin-right: 500em;
+}
+aside{
+        width: 130px;
+        position: fixed;
+        z-index: 0;
+        top: 250px;
+        right: 10px;
+        background: #eee;
+        overflow-x: hidden;
+        padding: 8px 0;
+        padding: 0px 10px;
+} */
+
+.card img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 1em 2em;
+}
+/* .progress {
+    position: relative;
+    height: 10px;
+    width: 110%;
+    border: 10px solid #f4a261;
+    border-radius: 15px;
+} */
+
+.progress .color {
+    position: absolute;
+    background-color: #ffffff;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;
+}
+
+@keyframes progres {
+    0% {
+        width: 0%;
+    }
+
+    25% {
+        width: 50%;
+    }
+
+    50% {
+        width: 75%;
+    }
+
+    75% {
+        width: 85%;
+    }
+
+    100% {
+        width: 100%;
+    }
+};
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+li.dropdown {
+    display: inline-block !important;
+}
+
+.dropdown:hover .list-dropdown {
+    display: block !important;
+}
+
+.list-dropdown a:hover {
+    color: #fff !important;
+}
+
+.list-dropdown{
+    position: absolute !important;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.list-dropdown a {
+    color: #3c3c3c !important;
+}
+
+.list-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
+.dropdown:hover .list-dropdown {
+    display: block !important;
+}
